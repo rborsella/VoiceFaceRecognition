@@ -12,7 +12,7 @@ can only process names that are already in the code. If lost look for Michael an
 ###Who am I
 If you have already saved your face in the program.The application will tell you what your name is. 
 
-###ell me a joke
+###Tell me a joke
 Tells one silly joke. (eventually will be expanded to multiple silly jokes)
 
 ###What is <number> plus <number>

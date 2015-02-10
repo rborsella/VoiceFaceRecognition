@@ -6,7 +6,7 @@ This is just the beginning of a project that processes face recognition (using a
 
 Basic voice commands that are available (as of the writing of this README):
 
-###My Name is <your name> 
+###My Name is |your name| 
 can only process names that are already in the code. If lost look for Michael and add your name to the list.
 
 ###Who am I
@@ -15,7 +15,7 @@ If you have already saved your face in the program.The application will tell you
 ###Tell me a joke
 Tells one silly joke. (eventually will be expanded to multiple silly jokes)
 
-###What is <number> plus <number>
+###What is |number| plus |number|
 Adds two numbers together and tells you the result. (Currently only does #s 1-4)
 
 ###Open Chrome

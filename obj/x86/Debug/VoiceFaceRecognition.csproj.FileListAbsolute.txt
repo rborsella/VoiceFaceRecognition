@@ -1,0 +1,3 @@
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\bin\Debug\MultiFaceRec.exe.config
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.exe
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.pdb

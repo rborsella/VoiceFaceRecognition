@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,17 +47,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.imageBoxFrameGrabber)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button2.Location = new System.Drawing.Point(130, 309);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 48);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "2. Add face";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(100, 262);
@@ -73,7 +61,6 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.imageBox1);
-            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Location = new System.Drawing.Point(513, 18);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
@@ -221,7 +208,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button2;
         private Emgu.CV.UI.ImageBox imageBoxFrameGrabber;
         private Emgu.CV.UI.ImageBox imageBox1;
         private System.Windows.Forms.TextBox textBox1;

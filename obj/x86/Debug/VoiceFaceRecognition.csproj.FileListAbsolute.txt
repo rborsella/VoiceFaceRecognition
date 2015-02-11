@@ -1,3 +1,9 @@
 C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\bin\Debug\MultiFaceRec.exe.config
 C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.exe
 C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.pdb
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\bin\Debug\MultiFaceRec.exe
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\bin\Debug\MultiFaceRec.pdb
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\VoiceFaceRecognition.csprojResolveAssemblyReference.cache
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.FrmPrincipal.resources
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\MultiFaceRec.Properties.Resources.resources
+C:\Users\Shane\Documents\Visual Studio 2013\Projects\VoiceFaceRecognition\obj\x86\Debug\VoiceFaceRecognition.csproj.GenerateResource.Cache

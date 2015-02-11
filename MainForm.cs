@@ -98,8 +98,19 @@ namespace MultiFaceRec
 
             if (txt.IndexOf("Tell") >= 0 && txt.IndexOf("joke") >= 0)
             {
-                ss.Speak("Did you hear about the new restaurant called karma?");
-                ss.Speak(", They have no menu, you get what you deserve. Ha ha");
+                string[] jokes = new string[4];
+                jokes[0] = "Did you hear about the new restaurant called karma? , They have no menu, you get what you deserve.";
+                jokes[1] = "Ask me about loom.";
+                jokes[2] = "How many I.T. guys does it take to screw in a light bulb? None, thats a facilities problem.";
+                jokes[3] = "I dont always test my code, but when I do, its in production";
+                Random jNum = new Random();
+                int jokeNum = jNum.Next(0, 4);
+                ss.Speak(jokes[jokeNum]);
+            }
+
+            if (txt.IndexOf("What") >= 0 && txt.IndexOf("loom") >= 0)
+            {
+                ss.Speak("You mean the latest masterpiece of fantasy storytelling from Lucasfilms Brian Moriarty? Why its an extraordinary adventure with an interface on magic... stunning, high-resolution, 3D landscapes... sophisticated score and musical effects. Not to mention the detailed animation and special effects, elegant point n click control of characters, objects, and magic spells. Beat the rush! Go out and buy Loom today!");
             }
 
             if (txt.IndexOf("What") >= 0 && txt.IndexOf("plus") >= 0) // what is 2 plus 3
@@ -171,6 +182,7 @@ namespace MultiFaceRec
             ch_StartStopCommands.Add("My name is");
             ch_StartStopCommands.Add("Open Chrome");
             ch_StartStopCommands.Add("Close Chrome");
+            ch_StartStopCommands.Add("What is loom");
             ch_StartStopCommands.Add("Tell me a joke");
             ch_StartStopCommands.Add("klatu barada nikto");
             GrammarBuilder gb_StartStop = new GrammarBuilder();

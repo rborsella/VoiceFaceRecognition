@@ -176,31 +176,15 @@ namespace MultiFaceRec
             sre.SpeechRecognized += sre_SpeechRecognized;
 
             Choices ch_StartStopCommands = new Choices();
-            ch_StartStopCommands.Add("speech on");
-            ch_StartStopCommands.Add("speech off");
-            ch_StartStopCommands.Add("Who am I");
-            ch_StartStopCommands.Add("My name is");
-            ch_StartStopCommands.Add("Open Chrome");
-            ch_StartStopCommands.Add("Close Chrome");
-            ch_StartStopCommands.Add("What is loom");
-            ch_StartStopCommands.Add("Tell me a joke");
-            ch_StartStopCommands.Add("klatu barada nikto");
+            string[] startStopCommands = { "speech on", "speech off", "Who am I", "My name is", "Open Chrome", "Close Chrome", "What is loom", "Tell me a joke", "klatu barada nikto" };
+            ch_StartStopCommands.Add(startStopCommands);
             GrammarBuilder gb_StartStop = new GrammarBuilder();
             gb_StartStop.Append(ch_StartStopCommands);
             Grammar g_StartStop = new Grammar(gb_StartStop);
 
             Choices ch_NameExchange = new Choices();
-            ch_NameExchange.Add("Shane");
-            ch_NameExchange.Add("Richard");
-            ch_NameExchange.Add("Latrese");
-            ch_NameExchange.Add("John");
-            ch_NameExchange.Add("Michael");
-            ch_NameExchange.Add("Linda");
-            ch_NameExchange.Add("Ron");
-            ch_NameExchange.Add("Marie");
-            ch_NameExchange.Add("Alan");
-            ch_NameExchange.Add("Joe");
-            ch_NameExchange.Add("Stefanie");
+            string[] nameExchange = { "Shane", "Richard", "Latrese", "John", "Michael", "Linda", "Ron", "Marie", "Alan", "Joe", "Stefanie", "Chris" };
+            ch_NameExchange.Add(nameExchange);
             GrammarBuilder gb_NameExchange = new GrammarBuilder();
             gb_NameExchange.Append("My name is");
             gb_NameExchange.Append(ch_NameExchange);

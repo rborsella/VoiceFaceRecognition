@@ -1,12 +1,4 @@
-﻿
-//Multiple face detection and recognition in real time
-//Using EmguCV cross platform .Net wrapper to the Intel OpenCV image processing library for C#.Net
-//Writed by Sergio Andrés Guitérrez Rojas
-//"Serg3ant" for the delveloper comunity
-// Sergiogut1805@hotmail.com
-//Regards from Bucaramanga-Colombia ;)
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -15,7 +7,6 @@ using Emgu.CV.Structure;
 using Emgu.CV.CvEnum;
 using System.IO;
 using System.Diagnostics;
-
 using Microsoft.Speech.Recognition;
 using Microsoft.Speech.Synthesis;
 using System.Globalization; // recognition

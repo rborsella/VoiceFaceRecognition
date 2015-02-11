@@ -1,4 +1,12 @@
-﻿using System;
+﻿
+//Multiple face detection and recognition in real time
+//Using EmguCV cross platform .Net wrapper to the Intel OpenCV image processing library for C#.Net
+//Writed by Sergio Andrés Guitérrez Rojas
+//"Serg3ant" for the delveloper comunity
+// Sergiogut1805@hotmail.com
+//Regards from Bucaramanga-Colombia ;)
+
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -193,7 +201,6 @@ namespace MultiFaceRec
             ch_NameExchange.Add("Alan");
             ch_NameExchange.Add("Joe");
             ch_NameExchange.Add("Stefanie");
-            ch_NameExchange.Add("Chris");
             GrammarBuilder gb_NameExchange = new GrammarBuilder();
             gb_NameExchange.Append("My name is");
             gb_NameExchange.Append(ch_NameExchange);

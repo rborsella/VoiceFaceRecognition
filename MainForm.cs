@@ -213,19 +213,13 @@ namespace MultiFaceRec
 
             sre.RecognizeAsync(RecognizeMode.Multiple); // multiple grammars
 
-        }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
             //Initialize the capture device
             grabber = new Capture();
             grabber.QueryFrame();
             //Initialize the FrameGraber event
             Application.Idle += new EventHandler(FrameGrabber);
-            button1.Enabled = false;
-        }
 
+        }
 
         public void addPerson()
         {
